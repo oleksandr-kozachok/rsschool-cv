@@ -4,20 +4,46 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="D:\task1\rsschool-cv\css\style.css">
+   <link rel="stylesheet" href="./css/style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
    <title>Document</title>
 </head>
 <body>
 <header>
    <div class="nav">
-      <ul>
-         <li>Кто я</li>
-         <li>Мои навыки</li>
-         <li></li>
-         <li></li>
-         <li></li>
+      <ul class="navigation">
+         <li><a href="#1">Contact information</a></li>
+         <li><a href="#2"> Shortly about myself</a></li>
+         <li><a href="#3">Professional skills</a></li>
+         <li><a href="#4">My code examples</a></li>
+         <li><a href="#5">Languages</a></li>
       </ul>
    </div>
 </header>
+<div class="about-me">
+   <div class="about-me photo">
+      <div  class = "front"> 
+         <img  src="./img/front.png" alt="Sorry, problem with network"> 
+      </div>
+      <div class = "back" >
+         <img  src="./img/back.png" alt="Sorry, problem with network"> 
+      </div>
+   
+   </div>
+   <div class="about-me information" id="2">
+      <span class="text">My desire to connect my life with programming originated at school, because I liked to create something of my own unique. Until today, I watched tutorial videos on YouTube how to create websites how to customize them using CSS. And just recently, I decided to seriously study such an area as a front-end developer and signed up for a course from Rolling School.</span>
+   </div>
+</div>
+<div class="cod" id="4">
+   <div class="cod example">
+      <pre>
+         shopping = ['Ivan', 'Andre', 'Maks', 'Michail', 'Maks', 'Ivan'];
+         const uniqArray = [...new Set(shopping)];
+         console.log(uniqArray);
+      </pre> 
+   </div>
+</div>
 </body>
 </html>
