@@ -85,15 +85,13 @@
    
    body {
       background: #474545;
-      height: 1000000px;
    }
    .nav{
       display: flex;
       width: 100%;
       height: 50px;
-    /* border: 2px solid green; */
     position: fixed;
-  background-color: #474545;
+    background-color: #474545;
     top: 0;
    }
    .navigation{
@@ -127,7 +125,6 @@ background-position-x: left;
    }
    .about-me{
     width: 100%;
-    /* border: 2px solid green; */
     display: flex;
     height: 500px;
   }   
@@ -138,7 +135,6 @@ background-position-x: left;
     perspective: 1000px;
     overflow: hidden;
     width: 33.333%;
-    /* border: 2px solid green; */
     border-radius: 69% 31% 52% 48% / 31% 36% 64% 69% ;
    }
   .back{
@@ -173,17 +169,115 @@ a {
   color: azure;
 }
 .cod{
-      /* border: 2px solid green; */
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    width: 100%;
+    display: flex;
+    padding: 60px 0;
 }
-.example{
+.logo, .example{
+  display: flex;
+  align-items: center;
+}
+.txt, .jsexample{
   color: azure;
   font-family: 'Poppins', sans-serif;
-  font-size: 25px;
-  margin: 0 auto;
+  margin: 0 0 0 55px;
+}
+.jsexample{
   line-height: 140%;
-  margin: 5%;
+  font-size: 25px;
+}
+.txt{
+font-size: 45px;
+}
+.example{
+  width: 100%;
+}
+.logo{
+  width: 33.333%;
+}
+.skills{
+  padding: 90px 0 ;
+}
+.progresbar{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+  margin: 15px;
+}
+.html,.css,.js{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ height: 200px;
+ width: 200px;
+  border-radius: 50%;
+  background-color: black;
+  position: relative;
+}
+.percent{
+  font-family: 'Poppins', sans-serif;
+  color: azure;
+  font-size: 25px;
+}
+
+.circular-chart {
+  width: 208px;
+  height: 208px;
+  position: absolute;
+}
+
+.circle {
+  stroke: #dbb11a;
+  fill: none;
+  stroke-width: 2.8;
+  stroke-linecap: round;
+  animation: progress 5s ease-out forwards;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+.language{
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  padding: 90px 0 ;
+}
+.topic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'Poppins', sans-serif;
+  color: azure;
+  font-size: 45px;
+  margin: 25px;
+}
+.name{
+  font-family: 'Poppins', sans-serif;
+  color: azure;
+  font-size: 25px;
+
+}
+.artiicle{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+.contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'Poppins', sans-serif;
+  color: azure;
+  font-size: 25px;
+  padding: 90px 0 15px 0;
 }
