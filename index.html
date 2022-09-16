@@ -1,116 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
-      rel="stylesheet"
-    />
-    <title>Document</title>
-  </head>
-  <body>
-    <header>
-      <div class="nav">
-        <ul class="navigation">
-          <li><a href="#punkt1">Contact information</a></li>
-          <li><a href="#punkt2"> Shortly about myself</a></li>
-          <li><a href="#punkt3">Professional skills</a></li>
-          <li><a href="#punkt4">My code examples</a></li>
-          <li><a href="#punkt5">Languages</a></li>
-        </ul>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <ul class="navigation">
+        <li><a href="#punkt1">Contact information</a></li>
+        <li><a href="#punkt2"> Shortly about myself</a></li>
+        <li><a href="#punkt3">Professional skills</a></li>
+        <li><a href="#punkt4">My code examples</a></li>
+        <li><a href="#punkt5">Languages</a></li>
+      </ul>
+    </div>
+  </header>
+  <div class="about-me">
+    <div class="about-me photo">
+      <div class="front">
+        <img src="./img/front.png" alt="Sorry, problem with network">
       </div>
-    </header>
-    <div class="about-me">
-      <div class="about-me photo">
-        <div class="front">
-          <img src="./img/front.png" alt="Sorry, problem with network" />
-        </div>
-        <div class="back">
-          <img src="./img/back.png" alt="Sorry, problem with network" />
-        </div>
-      </div>
-      <div class="about-me information" id="punkt2">
-        <span class="text"
-          >My desire to connect my life with programming originated at school,
-          because I liked to create something of my own unique. Until today, I
-          watched tutorial videos on YouTube how to create websites how to
-          customize them using CSS. And just recently, I decided to seriously
-          study such an area as a front-end developer and signed up for a course
-          from Rolling School.</span
-        >
+      <div class="back">
+        <img src="./img/back.png" alt="Sorry, problem with network">
       </div>
     </div>
-    <div id="punkt4" class="cod">
-      <div class="logo">
-        <span class="txt"> My code </span>
-      </div>
-      <div class="example">
-        <span class="jsexample">
-          shopping = ['Ivan', 'Andre', 'Maks', 'Michail', 'Maks', 'Ivan'];<br />
-          const uniqArray = [...new Set(shopping)];<br />
-          console.log(uniqArray);<br />
-        </span>
-      </div>
+    <div class="about-me information" id="punkt2">
+      <span class="text">My desire to connect my life with programming originated at school,
+        because I liked to create something of my own unique. Until today, I
+        watched tutorial videos on YouTube how to create websites how to
+        customize them using CSS. And just recently, I decided to seriously
+        study such an area as a front-end developer and signed up for a course
+        from Rolling School.</span>
     </div>
-    <div id="punkt3" class="skills">
-      <div class="progresbar">
-        <div class="html">
-          <svg viewBox="0 0 36 36" class="circular-chart">
-            <path
-              class="circle"
-              stroke-dasharray="90, 100"
-              d="M18 2.0845
+  </div>
+  <div id="punkt4" class="cod">
+    <div class="logo">
+      <span class="txt"> My code </span>
+    </div>
+    <div class="example">
+      <span class="jsexample">
+        shopping = ['Ivan', 'Andre', 'Maks', 'Michail', 'Maks', 'Ivan'];<br />
+        const uniqArray = [...new Set(shopping)];<br />
+        console.log(uniqArray);<br />
+      </span>
+    </div>
+  </div>
+  <div id="punkt3" class="skills">
+    <div class="progresbar">
+      <div class="html">
+        <svg viewBox="0 0 36 36" class="circular-chart">
+          <path class="circle" stroke-dasharray="90, 100" d="M18 2.0845
              a 15.9155 15.9155 0 0 1 0 31.831
-             a 15.9155 15.9155 0 0 1 0 -31.831"
-            />
-            <span class="percent">90% - Html</span>
-          </svg>
-        </div>
-        <div class="css">
-          <svg viewBox="0 0 36 36" class="circular-chart">
-            <path
-              class="circle"
-              stroke-dasharray="75, 100"
-              d="M18 2.0845
+             a 15.9155 15.9155 0 0 1 0 -31.831" />
+          <span class="percent">90% - Html</span>
+        </svg>
+      </div>
+      <div class="css">
+        <svg viewBox="0 0 36 36" class="circular-chart">
+          <path class="circle" stroke-dasharray="75, 100" d="M18 2.0845
                    a 15.9155 15.9155 0 0 1 0 31.831
-                   a 15.9155 15.9155 0 0 1 0 -31.831"
-            />
-            <span class="percent">75% - Css</span>
-          </svg>
-        </div>
-        <div class="js">
-          <svg viewBox="0 0 36 36" class="circular-chart">
-            <path
-              class="circle"
-              stroke-dasharray="35, 100"
-              d="M18 2.0845
+                   a 15.9155 15.9155 0 0 1 0 -31.831" />
+          <span class="percent">75% - Css</span>
+        </svg>
+      </div>
+      <div class="js">
+        <svg viewBox="0 0 36 36" class="circular-chart">
+          <path class="circle" stroke-dasharray="35, 100" d="M18 2.0845
                    a 15.9155 15.9155 0 0 1 0 31.831
-                   a 15.9155 15.9155 0 0 1 0 -31.831"
-            />
-            <span class="percent">35% - JScript</span>
-          </svg>
-        </div>
+                   a 15.9155 15.9155 0 0 1 0 -31.831" />
+          <span class="percent">35% - JScript</span>
+        </svg>
       </div>
     </div>
-    <div id="punkt5" class="language">
-      <span class="topic">My levels of foreign languages</span>
-      <div class="artiicle">
-        <span class="name">English - Intermediate</span>
-        <span class="name">Ukranian - Native</span>
-        <span class="name">Russian - Native</span>
-      </div>
+  </div>
+  <div id="punkt5" class="language">
+    <span class="topic">My levels of foreign languages</span>
+    <div class="artiicle">
+      <span class="name">English - Intermediate</span>
+      <span class="name">Ukranian - Native</span>
+      <span class="name">Russian - Native</span>
     </div>
-    <footer>
-      <div class="contact" id="punkt1">
-        <span>Phone: +380990917830</span>
-        <span>E-mail: kozachoksacha3k16@gmail.com</span>
-        <span>Telegram: @maybefdalex</span>
-      </div>
-    </footer>
-  </body>
+  </div>
+  <footer>
+    <div class="contact" id="punkt1">
+      <span>Phone: +380990917830</span>
+      <span>E-mail: kozachoksacha3k16@gmail.com</span>
+      <span>Telegram: @maybefdalex</span>
+    </div>
+  </footer>
+</body>
 </html>
